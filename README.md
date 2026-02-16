@@ -62,3 +62,18 @@ ESP32-based IoT home automation and monitoring system integrating environmental 
 
 3. Replace credentials:
 
+#define WIFI_SSID "YOUR_WIFI_NAME"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
+#define BLYNK_TEMPLATE_ID "YOUR_TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
+#define BLYNK_AUTH_TOKEN "YOUR_BLYNK_AUTH_TOKEN"
+
+
+
+4. Upload to ESP32.
+
+## System Overview
+
+Sensors → ESP32 → Blynk Cloud → Mobile App  
+ESP32 → Relays / Lock / Buzzer (Actuation)
+
